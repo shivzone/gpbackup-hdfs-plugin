@@ -1,0 +1,4 @@
+executablepath: $GOPATH/src/github.com/greenplum-db/gpbackup/plugins/hdfs_plugin.bash
+options:
+  hadoop_root: 
+  bucket:  
