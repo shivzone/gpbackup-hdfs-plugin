@@ -1,6 +1,8 @@
 # Using the HDFS Storage Plugin with gpbackup and gprestore
-The HDFS plugin lets you use Hadoop Districbuted File System (HDFS) to store and retrieve backups when you run gpbackup and gprestore.
+The HDFS plugin lets you use Hadoop Districbuted File System (HDFS) to store and retrieve GPDB backups when you run gpbackup and gprestore.
+For more information on gpbackup plugin refer to https://github.com/greenplum-db/gpbackup/tree/master/plugins
 
+## Usage
 To use the HDFS plugin, you specify the location of the plugin. When you run gpbackup or gprestore, you specify the configuration file with the option --plugin-config.
 
 If you perform a backup operation with the gpbackup option --plugin-config, you must also specify the --plugin-config option when you restore the backup with gprestore.
